@@ -1,2 +1,2 @@
-FROM ubuntu:12.04
+FROM registry-1-stage.docker.io/rabrams/ubuntu
 RUN /nonexistent/command
