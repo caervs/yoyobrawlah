@@ -28,4 +28,23 @@ COPY gamelib/*.py yoyo/gamelib/
 USER developer
 ENV HOME /home/developer
 
+RUN echo 1 > /tmp/1
+RUN echo 2 > /tmp/2
+RUN echo 3 > /tmp/3
+RUN echo 4 > /tmp/4
+RUN echo 5 > /tmp/5
+RUN echo 6 > /tmp/6
+RUN echo 7 > /tmp/7
+RUN echo 8 > /tmp/8
+RUN echo 9 > /tmp/9
+RUN echo 10 > /tmp/10
+RUN echo 11 > /tmp/11
+RUN echo 12 > /tmp/12
+RUN echo 13 > /tmp/13
+RUN echo 14 > /tmp/14
+RUN echo 15 > /tmp/15
+RUN echo 16 > /tmp/16
+RUN echo 17 > /tmp/17
+RUN echo 18 > /tmp/18
+RUN echo 19 > /tmp/19
 CMD cd /yoyo && python run_game.py
