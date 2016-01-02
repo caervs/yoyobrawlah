@@ -1,5 +1,6 @@
 FROM registry-1-stage.docker.io/rabrams/ubuntu
 MAINTAINER pdevine
+RUN sleep 3600
 RUN apt-get update && apt-get install -y python-pip
 RUN apt-get install -y freeglut3 libglu1 libfreetype6 libfreetype6 libavbin0 libopenal1
 #RUN apt-get install -y libav-utils
