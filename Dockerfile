@@ -29,3 +29,5 @@ USER developer
 ENV HOME /home/developer
 
 CMD cd /yoyo && python run_game.py
+
+# This is a new Dockerfile line
