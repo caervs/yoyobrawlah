@@ -46,3 +46,6 @@ then you will die.
 
 
 # This is a new README line
+
+
+من می خام ببينم اگه هايلند فارسي بلده
